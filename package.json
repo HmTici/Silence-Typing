@@ -1,7 +1,7 @@
 {
-  "name": "plugin-template",
+  "name": "silence-typing",
   "version": "1.0.0",
-  "description": "A plugin template",
+  "description": "Type without being seen",
   "engines": {
     "node": ">=14.0.0"
   },
