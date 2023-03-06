@@ -1,7 +1,7 @@
 import { Injector, Logger, webpack } from "replugged";
 
 const inject = new Injector();
-const logger = Logger.plugin("PluginTemplate");
+const logger = Logger.plugin("SilenceChat");
 
 export async function start(): Promise<void> {
   const typingMod = await webpack.waitForModule<{
